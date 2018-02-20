@@ -2,6 +2,14 @@
 
 This is a fun and easy to use script to generate small pronouncable usernames which are easy to remember.
 
+## What is a PKMN?
+
+```
+λ py gen_pkmn_name.py
+imotaliv
+```
+So basically a PKMN is a word created from vocals and konsonants in turn starting with a vocal.
+
 ## Usage
 
 ### Cli
@@ -37,7 +45,8 @@ print(pkmn.gen())
 ### gen()
 
 Input: 0 Params
-Output: String
+
+Output: String (i.e. ```eleyunow```)
 
 Takes zero parmeters and returns a PKMN with the following specs:
 * 1 PKMN
@@ -46,7 +55,8 @@ Takes zero parmeters and returns a PKMN with the following specs:
 
 ### gen(number, length, unique)
 
-Input: 3 Integer
-Output: String
+Input: 3 integer (i.e. ```gen(3, 5, 8)```)
+
+Output: Array of strings (i.e. ```['afigesev', 'oyuroqeg', 'oqovaluc']```)
 
 Takes three integer parameter and creates the PKMN with these specs.
