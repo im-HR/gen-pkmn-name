@@ -55,7 +55,7 @@ Takes zero parmeters and returns a PKMN with the following specs:
 
 ### gen(number, length, unique)
 
-Input: 3 integer (i.e. ```gen(3, 5, 8)```)
+Input: 3 integer (i.e. ```gen(3, 8, 5)```)
 
 Output: Array of strings (i.e. ```['afigesev', 'oyuroqeg', 'oqovaluc']```)
 
