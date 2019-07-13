@@ -1,0 +1,6 @@
+#because running this more than 151 times is nonsense
+for pokemon in {0..151}
+do
+   python3.7 gen_pkmn_name.py
+   sleep 1
+done
